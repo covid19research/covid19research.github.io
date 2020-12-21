@@ -83,7 +83,7 @@
 <body>
     <section class="start_information">
         <div class="container">
-            <h1>Comparative analysis: Sweden/Belarus on COVID 19</h1>
+            <h1>Comparative analysis: Sweden/Belarus - black lives matter. Post-holocaust issues</h1>
         </div>
    </section>
    <br>
@@ -138,13 +138,13 @@
                 <div class="card-body">
                     <!--<img src="https://scontent.fprg3-1.fna.fbcdn.net/v/t1.0-9/59747538_606146166570694_6101639117194395648_n.jpg?_nc_cat=104&ccb=2&_nc_sid=8bfeb9&_nc_ohc=tme-LVc__TYAX8bvDn8&_nc_oc=AQl8P3gCqTZkxX_kDD3tO5bXPTJQekWKUzLFxCbAyV0gVxa9IZTIIhd_IpMwsyS7040&_nc_ht=scontent.fprg3-1.fna&oh=7ce56005b9603b98df9ab7da19a1f2f4&oe=5FDE1E31" class="text-center author_img" alt="Illia Klinytskyi">
                     -->
-                    <img src="https://scontent-prg1-1.xx.fbcdn.net/v/t1.0-9/126872805_1035476133637693_2282778201796347088_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=gmZpZuZok5YAX8gn9PI&_nc_ht=scontent-prg1-1.xx&oh=6d76b31acb1230fecc5f08f799c75741&oe=6003F22A" class="text-center author_img" alt="Illia Klinytskyi">
+                    <img src="ilja.jpg" class="text-center author_img" alt="Illia Klinytskyi">
                                       
                         <h4 class="card-title">Illia Klinytskyi</h4>
-                  <h5>alternate name notation: Ilja Klinicki, <br> Илья Клиницкий, Ілля Кліницький</h5>
+                  <h5>alternate name notation: איליא קליניצקי, Ilja Klinicki, <br> Илья Клиницкий, Ілля Кліницький</h5>
                   <p class="card-text">
                       <b>affiliation:</b> University of Silesia in Katowice<br>
-                      <b>area of interests:</b> human rights, lingustic rights, sustainable development<br>
+                      <b>area of interests:</b> human rights<br>
                   </p>
                   <a href="#" class="btn btn-primary">Researchgate</a>
                 </div>
@@ -155,13 +155,14 @@
                 <div class="card-body">
                    <!-- <img src="https://scontent.fprg3-1.fna.fbcdn.net/v/t1.0-9/600357_378757635523281_762959635_n.jpg?_nc_cat=107&ccb=2&_nc_sid=de6eea&_nc_ohc=Mddutb9s01gAX_F1Srx&_nc_ht=scontent.fprg3-1.fna&oh=14d3610bc4911b371f4c9af5ea5a867b&oe=5FEF4FC0" class="text-center author_img" alt="Illia Klinytskyi">
                   -->
-                  <img src="https://i1.rgstatic.net/ii/profile.image/961751176736771-1606310757524_Q128/Barbara_Bieniek.jpg" class="text-center author_img" alt="Barbara Bieniek">
+                  <img src="barbara.jpg" class="text-center author_img" alt="Illia Klinytskyi">
                     <h4 class="card-title">Barbara Bieniek</h4>
+                  <h5>alternate name notation: בארבארא בן, <br> Барбара Бенек, Барбара Бєнєк</h5>
                   <p class="card-text">
                       <b>affiliation:</b> University of Silesia in Katowice<br>
-                      <b>area of interests:</b> political studies, development of political parties in Sweden, world history<br>
+                      <b>area of interests:</b> human rights<br>
                   </p>
-                  <a href="https://www.researchgate.net/profile/Barbara_Bieniek" class="btn btn-primary">Researchgate</a>
+                  <a href="#" class="btn btn-primary">Researchgate</a>
                 </div>
               </div>
             </div>
@@ -187,7 +188,7 @@
     var belgium_js;
     var denmark_js;
 function load_data(country){
-   var requestURL = 'https://api.covid19api.com/country/'+country+'/status/confirmed/live?from=2020-03-01T00:00:00Z&to=2020-10-01T00:00:00Z';  
+   var requestURL = country+'.json';  
    var request = new XMLHttpRequest(); 
    request.open('GET', requestURL);
    request.responseType = 'json';
