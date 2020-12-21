@@ -1,1 +1,1 @@
-# bookish-octo-invention
+This is a repository that stores data from the countries under study during the COVID 19 epidemic: Belarus and Sweden. Data plotted and obtained in json format using information from the john hobkins institute
